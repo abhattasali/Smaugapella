@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46A086B2325CCBC00067A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A086A2325CCBC00067A9D /* AppDelegate.swift */; };
+		F46A086D2325CCBC00067A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A086C2325CCBC00067A9D /* ViewController.swift */; };
+		F46A08702325CCBC00067A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46A086E2325CCBC00067A9D /* Main.storyboard */; };
+		F46A08722325CCBD00067A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46A08712325CCBD00067A9D /* Assets.xcassets */; };
+		F46A08752325CCBD00067A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46A08732325CCBD00067A9D /* LaunchScreen.storyboard */; };
+		F46A08802325CCBD00067A9D /* SmaugapellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A087F2325CCBD00067A9D /* SmaugapellaTests.swift */; };
+		F46A088B2325CCBD00067A9D /* SmaugapellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A088A2325CCBD00067A9D /* SmaugapellaUITests.swift */; };
+		F46A089B2325CD3500067A9D /* PlayerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A089A2325CD3400067A9D /* PlayerProfile.swift */; };
+		F46A089D2325D0F300067A9D /* PlayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A089C2325D0F300067A9D /* PlayerTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46A087C2325CCBD00067A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46A085F2325CCBC00067A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46A08662325CCBC00067A9D;
+			remoteInfo = Smaugapella;
+		};
+		F46A08872325CCBD00067A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46A085F2325CCBC00067A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46A08662325CCBC00067A9D;
+			remoteInfo = Smaugapella;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F46A08672325CCBC00067A9D /* Smaugapella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smaugapella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46A086A2325CCBC00067A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46A086C2325CCBC00067A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46A086F2325CCBC00067A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46A08712325CCBD00067A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46A08742325CCBD00067A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F46A08762325CCBD00067A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46A087B2325CCBD00067A9D /* SmaugapellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmaugapellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46A087F2325CCBD00067A9D /* SmaugapellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaugapellaTests.swift; sourceTree = "<group>"; };
+		F46A08812325CCBD00067A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46A08862325CCBD00067A9D /* SmaugapellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmaugapellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46A088A2325CCBD00067A9D /* SmaugapellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaugapellaUITests.swift; sourceTree = "<group>"; };
+		F46A088C2325CCBD00067A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46A089A2325CD3400067A9D /* PlayerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfile.swift; sourceTree = "<group>"; };
+		F46A089C2325D0F300067A9D /* PlayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46A08642325CCBC00067A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08782325CCBD00067A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08832325CCBD00067A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46A085E2325CCBC00067A9D = {
+			isa = PBXGroup;
+			children = (
+				F46A08692325CCBC00067A9D /* Smaugapella */,
+				F46A087E2325CCBD00067A9D /* SmaugapellaTests */,
+				F46A08892325CCBD00067A9D /* SmaugapellaUITests */,
+				F46A08682325CCBC00067A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46A08682325CCBC00067A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46A08672325CCBC00067A9D /* Smaugapella.app */,
+				F46A087B2325CCBD00067A9D /* SmaugapellaTests.xctest */,
+				F46A08862325CCBD00067A9D /* SmaugapellaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46A08692325CCBC00067A9D /* Smaugapella */ = {
+			isa = PBXGroup;
+			children = (
+				F46A086A2325CCBC00067A9D /* AppDelegate.swift */,
+				F46A086C2325CCBC00067A9D /* ViewController.swift */,
+				F46A086E2325CCBC00067A9D /* Main.storyboard */,
+				F46A08712325CCBD00067A9D /* Assets.xcassets */,
+				F46A08732325CCBD00067A9D /* LaunchScreen.storyboard */,
+				F46A08762325CCBD00067A9D /* Info.plist */,
+				F46A089A2325CD3400067A9D /* PlayerProfile.swift */,
+				F46A089C2325D0F300067A9D /* PlayerTableViewController.swift */,
+			);
+			path = Smaugapella;
+			sourceTree = "<group>";
+		};
+		F46A087E2325CCBD00067A9D /* SmaugapellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F46A087F2325CCBD00067A9D /* SmaugapellaTests.swift */,
+				F46A08812325CCBD00067A9D /* Info.plist */,
+			);
+			path = SmaugapellaTests;
+			sourceTree = "<group>";
+		};
+		F46A08892325CCBD00067A9D /* SmaugapellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F46A088A2325CCBD00067A9D /* SmaugapellaUITests.swift */,
+				F46A088C2325CCBD00067A9D /* Info.plist */,
+			);
+			path = SmaugapellaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46A08662325CCBC00067A9D /* Smaugapella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46A088F2325CCBD00067A9D /* Build configuration list for PBXNativeTarget "Smaugapella" */;
+			buildPhases = (
+				F46A08632325CCBC00067A9D /* Sources */,
+				F46A08642325CCBC00067A9D /* Frameworks */,
+				F46A08652325CCBC00067A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smaugapella;
+			productName = Smaugapella;
+			productReference = F46A08672325CCBC00067A9D /* Smaugapella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46A087A2325CCBD00067A9D /* SmaugapellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46A08922325CCBD00067A9D /* Build configuration list for PBXNativeTarget "SmaugapellaTests" */;
+			buildPhases = (
+				F46A08772325CCBD00067A9D /* Sources */,
+				F46A08782325CCBD00067A9D /* Frameworks */,
+				F46A08792325CCBD00067A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46A087D2325CCBD00067A9D /* PBXTargetDependency */,
+			);
+			name = SmaugapellaTests;
+			productName = SmaugapellaTests;
+			productReference = F46A087B2325CCBD00067A9D /* SmaugapellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F46A08852325CCBD00067A9D /* SmaugapellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46A08952325CCBD00067A9D /* Build configuration list for PBXNativeTarget "SmaugapellaUITests" */;
+			buildPhases = (
+				F46A08822325CCBD00067A9D /* Sources */,
+				F46A08832325CCBD00067A9D /* Frameworks */,
+				F46A08842325CCBD00067A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46A08882325CCBD00067A9D /* PBXTargetDependency */,
+			);
+			name = SmaugapellaUITests;
+			productName = SmaugapellaUITests;
+			productReference = F46A08862325CCBD00067A9D /* SmaugapellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46A085F2325CCBC00067A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Arun Bhattasali";
+				TargetAttributes = {
+					F46A08662325CCBC00067A9D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F46A087A2325CCBD00067A9D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F46A08662325CCBC00067A9D;
+					};
+					F46A08852325CCBD00067A9D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F46A08662325CCBC00067A9D;
+					};
+				};
+			};
+			buildConfigurationList = F46A08622325CCBC00067A9D /* Build configuration list for PBXProject "Smaugapella" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46A085E2325CCBC00067A9D;
+			productRefGroup = F46A08682325CCBC00067A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46A08662325CCBC00067A9D /* Smaugapella */,
+				F46A087A2325CCBD00067A9D /* SmaugapellaTests */,
+				F46A08852325CCBD00067A9D /* SmaugapellaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46A08652325CCBC00067A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46A08752325CCBD00067A9D /* LaunchScreen.storyboard in Resources */,
+				F46A08722325CCBD00067A9D /* Assets.xcassets in Resources */,
+				F46A08702325CCBC00067A9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08792325CCBD00067A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08842325CCBD00067A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46A08632325CCBC00067A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46A086D2325CCBC00067A9D /* ViewController.swift in Sources */,
+				F46A089B2325CD3500067A9D /* PlayerProfile.swift in Sources */,
+				F46A089D2325D0F300067A9D /* PlayerTableViewController.swift in Sources */,
+				F46A086B2325CCBC00067A9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08772325CCBD00067A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46A08802325CCBD00067A9D /* SmaugapellaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46A08822325CCBD00067A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46A088B2325CCBD00067A9D /* SmaugapellaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46A087D2325CCBD00067A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46A08662325CCBC00067A9D /* Smaugapella */;
+			targetProxy = F46A087C2325CCBD00067A9D /* PBXContainerItemProxy */;
+		};
+		F46A08882325CCBD00067A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46A08662325CCBC00067A9D /* Smaugapella */;
+			targetProxy = F46A08872325CCBD00067A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F46A086E2325CCBC00067A9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46A086F2325CCBC00067A9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F46A08732325CCBD00067A9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46A08742325CCBD00067A9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46A088D2325CCBD00067A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46A088E2325CCBD00067A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F46A08902325CCBD00067A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = Smaugapella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.Smaugapella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46A08912325CCBD00067A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = Smaugapella/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.Smaugapella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F46A08932325CCBD00067A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = SmaugapellaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.SmaugapellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smaugapella.app/Smaugapella";
+			};
+			name = Debug;
+		};
+		F46A08942325CCBD00067A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = SmaugapellaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.SmaugapellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smaugapella.app/Smaugapella";
+			};
+			name = Release;
+		};
+		F46A08962325CCBD00067A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = SmaugapellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.SmaugapellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smaugapella;
+			};
+			name = Debug;
+		};
+		F46A08972325CCBD00067A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q5UY246ZS2;
+				INFOPLIST_FILE = SmaugapellaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abhattasali.SmaugapellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smaugapella;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46A08622325CCBC00067A9D /* Build configuration list for PBXProject "Smaugapella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A088D2325CCBD00067A9D /* Debug */,
+				F46A088E2325CCBD00067A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46A088F2325CCBD00067A9D /* Build configuration list for PBXNativeTarget "Smaugapella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A08902325CCBD00067A9D /* Debug */,
+				F46A08912325CCBD00067A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46A08922325CCBD00067A9D /* Build configuration list for PBXNativeTarget "SmaugapellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A08932325CCBD00067A9D /* Debug */,
+				F46A08942325CCBD00067A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46A08952325CCBD00067A9D /* Build configuration list for PBXNativeTarget "SmaugapellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46A08962325CCBD00067A9D /* Debug */,
+				F46A08972325CCBD00067A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46A085F2325CCBC00067A9D /* Project object */;
+}
